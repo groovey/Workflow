@@ -115,6 +115,8 @@ alias g='git'
 alias pp='git add . && git commit -m "new updates" && git push'
 
 
+# Php Resque
+alias php-resque='php vendor/chrisboulton/php-resque/resque.php'
 
 
 # ------------
