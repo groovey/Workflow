@@ -6,15 +6,14 @@
 #  /____/                             /____/
 #
 # Author: Harold Kim
-# Version: 1.1
-
+# Version: 1.2
 
 [user]
-    name = Kim
+    name = pokoot
     email = pokoot@gmail.com
 
 [push]
-    default = matching
+    default = simple
 
 [color]
     ui = true
@@ -30,6 +29,15 @@
 
 [difftool]
     prompt = false
+
+[core]
+    editor = vim
+
+#    Windows settings
+#    autocrlf = false
+#    safecrlf = false
+#    whitespace = cr-at-eol
+
 
 [alias]
     s = status -s
