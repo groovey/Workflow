@@ -1,7 +1,7 @@
 Workflow
 ========
 
-Some of the most command configuration, settings and process that will speed up your current workflow. Fire up your command prompt and execute the command.
+Most common configuration settings and processes that will speed up your current workflow.
 
 
 ## Bash Alias
