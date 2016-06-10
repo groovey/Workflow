@@ -102,7 +102,7 @@ alias server='python -m SimpleHTTPServer 8000'
 
 
 # Set up your path environments
-PATH=$PATH:~/.composer/vendor/bin
+PATH=$PATH:~/.config/composer/vendor/bin
 export PATH
 
 # Update System
