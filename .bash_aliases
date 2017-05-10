@@ -102,7 +102,7 @@ alias server='python -m SimpleHTTPServer 8000'
 
 
 # Set up your path environments
-PATH=$PATH:~/.config/composer/vendor/bin:/home/vagrant/npm/lib/node_modules
+PATH=$PATH:~/.config/composer/vendor/bin:/home/vagrant/npm/lib/node_modules:/home/vagrant/npm/bin
 export PATH
 
 # Update System
