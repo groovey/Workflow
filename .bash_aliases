@@ -110,7 +110,8 @@ alias update='sudo apt-get update'
 
 
 # More Shortcuts
-alias www='cd /usr/share/nginx/html'
+#alias www='cd /usr/share/nginx/html'
+alias www='cd /var/www/html'
 alias g='git'
 alias pp='git add . && git commit -m "new updates" && git push'
 
