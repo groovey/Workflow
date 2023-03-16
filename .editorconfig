@@ -1,0 +1,71 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.vue]
+indent_size = 2
+indent_style = space
+trim_trailing_whitespace = true
+
+# CSS
+# https://google.github.io/styleguide/htmlcssguide.xml#General_Formatting_Rules
+# http://cssguidelin.es/#syntax-and-formatting
+[*.css]
+indent_size = 2
+indent_style = space
+trim_trailing_whitespace = true
+
+# GNU make
+# https://www.gnu.org/software/make/manual/html_node/Recipe-Syntax.html
+[Makefile]
+indent_style = tab
+
+# HTML
+# https://google.github.io/styleguide/htmlcssguide.xml#General_Formatting_Rules
+[*.{htm,html}]
+indent_size = 2
+indent_style = space
+trim_trailing_whitespace = true
+
+# JavaScript, JSON, JSX, JavaScript Modules, TypeScript
+# https://github.com/feross/standard
+[*.{cjs,js,jsx,mjs,ts,tsx,json}]
+indent_size = 2
+indent_style = space
+
+# PHP
+# http://www.php-fig.org/psr/psr-2/
+[*.php]
+indent_size = 4
+indent_style = space
+
+# Shell
+# https://google.github.io/styleguide/shell.xml#Indentation
+[*.{bash,sh,zsh}]
+indent_size = 2
+indent_style = space
+
+# Docker compsoe file
+[docker-compose{,.*}.{yaml,yml}]
+indent_style = space
+indent_size = 2
+
+# YAML
+# http://yaml.org/spec/1.2/2009-07-21/spec.html#id2576668
+[*.{yaml,yml}]
+indent_size = 2
+indent_style = space
+
+# Docker files in general
+[Dockerfile]
+indent_style = tab
+indent_size = 4
